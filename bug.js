@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The function is triggered multiple times for a single barcode, resulting in duplicated data. This is particularly noticeable with fast-moving barcodes, causing multiple identical events to fire.
